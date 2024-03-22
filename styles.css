@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
   color: orange;
   background-color: slategray;
   font-size: 20px;
@@ -25,4 +25,33 @@ li {
   list-style-type: none;
   text-shadow: 2px 2px lightgray;
 }
+ */
 
+h1 {
+  color: sienna;
+  text-align: center;
+  text-decoration: line-through;
+}
+div {
+  color: crimson;
+  border: 1px solid grey;
+  margin: 40px;
+  font-weight: bold;
+}
+
+div p {
+  border: inherit;
+  margin: inherit;
+  padding: 20px;
+  color: lightcoral;
+}
+
+p {
+  color: yellowgreen;
+}
+
+a[href$="com"] {
+  color: wheat;
+  background-color: blueviolet;
+  border: 2px solid salmon;
+}
