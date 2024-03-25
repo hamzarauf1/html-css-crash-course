@@ -3,29 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Forms</title>
     <link rel="stylesheet" href="styles.css" />
+    <title>MarioClub</title>
   </head>
   <body>
-    <h1>CSS Basics</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla magni,
-      officiis ea voluptatibus molestiae voluptate. Quasi corrupti qui ut
-      possimus beatae nesciunt iste perferendis velit quae, cumque doloribus
-      rerum tenetur.
-    </p>
+    <header>
+      <h1>MarioClub</h1>
+    </header>
 
-    <h1>Ninjas available for hire</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aspernatur
-      nobis quidem quisquam accusamus repudiandae ullam vitae fugiat quod.
-      Debitis ullam voluptas quos harum mollitia doloribus possimus labore sit
-      recusandae.
-    </p>
-    <ul>
-      <li>Ninja Hamza</li>
-      <li>Ninja Nabeel</li>
-      <li>Ninja Moli</li>
-    </ul>
+    <section class="banner">
+      <img src="/images/banner.png" alt="marioclub welcome banner" />
+      <div class="welcome">
+        <h2>
+          Welcome to <br />
+          <span>MarioClub</span>
+        </h2>
+      </div>
+    </section>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="/join.html" class="join"> Join the club</a></li>
+        <li><a href="/news.html">Latest news</a></li>
+        <li><a href="/games.html">New Games</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <article>
+        <h2>It's me, Mario</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eos,
+          cumque dolor provident rem consequatur eveniet ea praesentium expedita
+          sed aperiam officia facilis odit illum blanditiis culpa mollitia iure
+          molestias. Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+          recusandae quae dolorem inventore! Doloribus necessitatibus iste
+          temporibus error quae, placeat nobis expedita dignissimos dicta,
+          tempora corrupti, dolorem ipsa repudiandae nisi? Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Labore hic nesciunt iusto corrupti,
+          quam dolores dignissimos laborum similique quibusdam fugiat aliquam,
+          natus totam maiores neque temporibus magni quis ullam commodi.
+        </p>
+      </article>
+      <ul class="images">
+        <li><img src="/images/thumb-1.png" alt="Mario thumbnail 1" /></li>
+        <li><img src="/images/thumb-2.png" alt="Mario thumbnail 2" /></li>
+      </ul>
+    </main>
+    <section class="join">
+      <h2>Join Today</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non modi
+        recusandae nobis commodi quam consectetur dolorum vero distinctio
+        dolorem fugiat ea nulla, cum perspiciatis illo expedita nam nihil
+        quibusdam aliquam.
+      </p>
+      <form>
+        <input type="email" placeholder="Type email & hit Enter" required />
+      </form>
+    </section>
+    <footer>
+      <p class="copyright">Copyright 2024 MarioClub</p>
+    </footer>
   </body>
 </html>
